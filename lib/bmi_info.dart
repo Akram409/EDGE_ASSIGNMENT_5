@@ -160,6 +160,7 @@ class _BmiInfoState extends State<BmiInfo> {
                         Get.to(
                           () => BmiResult(),
                           arguments: [
+                            gender,
                             bmiInfoController.typedHeight.value,
                             bmiInfoController.typedWeight.value
                           ],
