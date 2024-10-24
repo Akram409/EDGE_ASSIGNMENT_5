@@ -19,9 +19,10 @@ class _BmiSplashState extends State<BmiSplash> {
   }
 
   @override
+
+  @override
   void initState() {
     super.initState();
-
     startTimer();
   }
 

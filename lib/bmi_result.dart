@@ -108,21 +108,21 @@ class _BmiResultState extends State<BmiResult> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
                   "BMI",
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontSize: 40,
                     fontWeight: FontWeight.bold,
                     color: Colors.blue,
                   ),
                 ),
-                const SizedBox(width: 10),
+                SizedBox(width: 10),
                 Text(
                   "REPORT",
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontSize: 40,
                     fontWeight: FontWeight.w100,
                     color: Colors.red,
@@ -144,7 +144,7 @@ class _BmiResultState extends State<BmiResult> {
                         ),
                       ),
                       TextSpan(
-                        text: "${bmi.toStringAsFixed(1)}",
+                        text: bmi.toStringAsFixed(1),
                         style: GoogleFonts.ebGaramond(
                           color: Colors.red,
                           fontWeight: FontWeight.bold,

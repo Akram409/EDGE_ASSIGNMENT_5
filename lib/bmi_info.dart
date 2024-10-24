@@ -11,23 +11,17 @@ class BmiInfo extends StatefulWidget {
 }
 
 class _BmiInfoState extends State<BmiInfo> {
+
   final BmiInfoController bmiInfoController = Get.put(BmiInfoController());
 
   // Controllers for height and weight inputs
   final TextEditingController heightController = TextEditingController();
   final TextEditingController weightController = TextEditingController();
-  // @override
-  // void dispose() {
-  //   // Dispose controllers when not needed
-  //   heightController.dispose();
-  //   weightController.dispose();
-  //   super.dispose();
-  // }
+
 
   @override
   Widget build(BuildContext context) {
     var gender = Get.arguments;
-    print(gender);
 
     return Scaffold(
       body: Center(

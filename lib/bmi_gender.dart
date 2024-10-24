@@ -11,14 +11,15 @@ class BmiGender extends StatefulWidget {
 }
 
 class _BmiGenderState extends State<BmiGender> {
+
   final GenderController genderController = Get.put(GenderController());
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
-          // crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
