@@ -19,7 +19,7 @@ You can also check out the video demo of the app on YouTube:
 ### Gender Selection Section (Male & Female)
 
 <div style="text-align: center;">
-  <img src="https://i.ibb.co.com/mqH2RFT/2-1.jpg" alt="Demo 3" width="400" height="645" style="margin-right: 20px;" />
+  <img src="https://i.ibb.co.com/mqH2RFT/2-1.jpg" alt="Demo 3" width="400" height="645" style="margin-right: 50px;" />
   <img src="https://i.ibb.co.com/KWDqCCj/2-2.jpg" alt="Detail 1" width="400" height="645" />
 </div>
 
